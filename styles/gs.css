@@ -1,9 +1,18 @@
+  @media (min-width: 100px) and (max-width: 2880px) {
 #links
 {
   margin-top: 20px;
   margin-right: 10px;
   text-align: right;
 }
+ #image
+ { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  margin-top: 60px;
+ }
 a
 {
 	color: black;
@@ -44,11 +53,7 @@ outline: none;
 outline: none;
 }
 
- #image
- { 
-  margin-top: 115px;
-  margin-left: 530px;
- }
+
 input[type="text"]:hover
 {
 letter-spacing: normal;
@@ -111,6 +116,7 @@ margin-bottom: 2px;
 border-color: #D3D3D3;
 background-color: grey;
 color: black;
+}
 }
 
 
